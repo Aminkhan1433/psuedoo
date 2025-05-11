@@ -1,0 +1,121 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+section {
+  margin: 0 auto;
+}
+
+main .sect {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+}
+
+
+
+
+button{
+    width: 197px;
+    height: 49px;
+    background-color: #458FF6;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+button:active{
+    background-color: red;
+}
+
+
+
+main .text{
+    width: 952px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+
+.block div{
+    background-color: gainsboro;
+    width: 380px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+
+
+.block div img{
+    margin: 50px;
+}
+
+
+.block div h1,p{
+    text-align: center;
+}
+
+
+
+.block div:hover{
+    background-color: #458FF6;
+}
+
+
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+
+.iki{
+    width: 197px;
+    height: 49px;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+
+.butto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ha{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
